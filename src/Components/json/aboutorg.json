@@ -15,12 +15,12 @@
       "educationTypes": [
         {
           "image": "ue",
-          "type": "Undergraduate Education",
+          "type": "Undergraduate ",
           "description": "With flexible courses"
         },
         {
           "image": "pe",
-          "type": "Postgraduate Education",
+          "type": "Postgraduate",
           "description": "Study flexibly online"
         }
       ],

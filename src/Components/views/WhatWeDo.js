@@ -9,8 +9,8 @@ const WhatWeDo = () => {
 
   return (
     <div className="container dv-what-we-do">
-      <div className="heading">
-        <h1><b>Online Education Tailored to You</b></h1>
+      <div >
+        <h1 className="heading">Online Education For You</h1>
       </div>
       <div className="row">
         {wwdData.whatwedo.map((item, index) => (

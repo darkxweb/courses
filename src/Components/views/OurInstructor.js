@@ -13,8 +13,8 @@ const OurInstructor = () => {
 
   return (
     <div className="container dv-our-instructor">
-      <div className="heading">
-        <h1 ><b>Meet Our Expert Instructor</b></h1>
+      <div >
+        <h1 className="heading">Meet Our Expert Instructor</h1>
       </div>
 
       <div className="row">

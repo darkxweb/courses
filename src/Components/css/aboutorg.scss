@@ -45,16 +45,16 @@
   }
  
 
- /* Add this CSS to your stylesheet */
+
 
 .hover-effect {
-  overflow: hidden; /* Ensure the skewed content doesn't overflow */
+  overflow: hidden;
   position: relative;
-  transition: transform 0.3s ease; /* Add a smooth transition effect */
+  transition: transform 0.3s ease; 
 }
 
 .hover-effect:hover {
-  transform: skew(-1deg); /* Adjust the skew angle as needed */
+  transform: skew(-1deg);
 }
 
 .hover-image {
@@ -63,7 +63,7 @@
   display: block;
 }
 
-/* Additional styling as needed */
+
 
 
   .bottom-img {
@@ -79,7 +79,7 @@
   padding-top: 2%;
   padding-bottom: 2%;
     text-align: center;
-    border-right: 1px solid white; /* width style color */
+    border-right: 1px solid white; 
   }
   .text-align{
     text-align: justify;
@@ -88,6 +88,9 @@
     padding-bottom:4%;
     color:rgb(98, 99, 100);
     
+  }
+  .dv-para-style{
+font-weight: bold;
   }
   .w-100{
    border-radius: 15px;
@@ -103,12 +106,9 @@
     font-weight: 600;
     
   }
-  // .style-row{
-  //   padding-top: 6%;
-  //   padding-bottom:6%;
-   
-  // }
-  
+ .playvedio{
+  width: 100%;
+ }
   
   .font-style{
     font-weight: bolder;
@@ -120,5 +120,116 @@
   }
   .col-style{
     padding-left: 2%;
+  }
+  .padding-bottom{
+    padding-bottom: 5%;
+  }
+  @media (min-width: 320px) and (max-width: 768px) {
+    
+    .container{
+      padding-top: 35px;
+      padding-bottom: 35px;
+     }
+     .card {
+      background-color:rgb(13,94,244);
+      color: white;
+      border-radius: 12px;
+    
+      margin-bottom: 13%;
+      border: none;
+    }
+    .card-title {
+      text-align: center;
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 0%;
+    }
+    .text {
+      text-align: center;
+     font-size: 8px;
+   
+     margin-top: 0%;
+     margin-bottom: 0%;
+    }
+    .h6{
+      color:blue;
+      font-weight: 600;
+text-align: center;
+font-size: 12px;
+   margin-top: 50px;
+    }
+    .font-style{
+      font-weight: bold;
+      text-align: center;
+      font-size: 23px;
+    }
+    .text-align{
+      text-align:center;
+      font-size:10px;
+     
+      color:rgb(98, 99, 100);
+      
+    }
+    .logo-1 {
+      width: 35px;
+      height: 35px;
+     
+      
+      
+    }
+    .logo-2{
+      width: 34px;
+      height: 34px;
+     
+    }
+    .heading-h5{
+      font-weight: bold;
+      font-size: 15px;
+   
+      }
+
+      .text-design{
+    font-size: 10px;
+        color:rgb(98, 99, 100);
+        
+      }
+     
+      .col-style{
+        padding-left: 0%;
+        padding-right: 0%;
+      }
+      .playvedio{
+        display: none;
+       }
+       .dv-para-style{
+        font-weight: bold;
+        font-size: 10px;
+          }
+          
+  .bottom-img {
+  
+    width: 10px;
+    height: 10px;
+    
+  }
+  .padding-bottom{
+    padding-bottom: 0%;
+  }
+  .tickmark{
+    display: flex;
+    align-items:start;
+  }
+  .panal-h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .dv-h5{
+    
+    text-align: center;
+    font-size: 8px;
+    
+  }
+    
   }
 }
